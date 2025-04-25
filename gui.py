@@ -53,7 +53,7 @@ class LockedInApp:
             self.manager.add(title, due_date, priority, category)
             self.refresh_task_list()
         else:
-            messagebox.showerror("Invalid date", "Please enter date in YYYY-MM-DD format")
+            messagebox.showerror("Invalid date:", "Please enter date in YYYY-MM-DD format.")
 
     def refresh_task_list(self):
         self.task_list.delete(0, tk.END)
