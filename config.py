@@ -1,1 +1,1 @@
-print("Test")
+DATABASE_URL = "sqlite:///tasks.db"
