@@ -1,3 +1,4 @@
+# stats.py
 from database import get_all_tasks
 
 def get_completion_stats():
